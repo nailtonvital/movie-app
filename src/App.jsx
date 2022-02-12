@@ -38,9 +38,7 @@ function App() {
       />
     ))
   )
-  const click = () => {
-    
-  }
+ 
   const searchMovies = (e) =>{
     e.preventDefault()
     fetchMovies()
@@ -48,8 +46,6 @@ function App() {
 
   return (
     <div className="App">
-
-
       <div className={"info"}  style={{backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) ,url(${BACKGROUND_IMAGE_PATH}${selectedMovie.backdrop_path})`}}>
         <header>
           <p className={"title"}>iLovemovies</p>
@@ -61,7 +57,6 @@ function App() {
         <div className={"info-content"}>
           <h1>{selectedMovie.title}</h1>
           {selectedMovie.overview ? <p>{selectedMovie.overview}</p> : null}
-
         </div>
       </div>
       <div className="container">
