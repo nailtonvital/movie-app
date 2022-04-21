@@ -1,5 +1,9 @@
-<h1 align="center">Movie-App</h1>
-<p align="center">A simple movie made with React.js<p>
+<p align="center">
+  <img src="https://logospng.org/download/react/logo-react-256.png" />
+</p>
+
+<h1 align="center">Movie App</h1>
+<p align="center">A simple movie app made with React.js<p>
 
 <h1>Preview</h1>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tbXAqFw61J8
